@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          Ricoh Singapore - MyGuides
         </q-toolbar-title>
 
       </q-toolbar>
@@ -53,6 +53,30 @@ const linksList = [
     caption: 'Main Page',
     icon: 'home',
     link: '/'
+  },
+  {
+    title: 'Meeting Room',
+    caption: 'How to book a meeting room',
+    icon: 'room',
+    link: '/meetingRoom'
+  },
+  {
+    title: 'Wireless Presentation',
+    caption: 'How to present wirelessly',
+    icon: 'podcasts',
+    link: '/wirelessPresentation'
+  },
+  {
+    title: 'Remote Access',
+    caption: 'How to allow remote access to Corporate IT if you’re working at home',
+    icon: 'settings_remote',
+    link: '/remoteAccess'
+  },
+  {
+    title: 'Mobile eLeave',
+    caption: 'Apply eleave on your phone',
+    icon: 'smartphone',
+    link: '/eleave'
   },
   {
     title: 'VPN',
